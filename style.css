@@ -38,11 +38,18 @@ body {
 
 .play_button {
   font-size: 23px;
-  width: 100px;
+  width: 120px;
 }
 
 canvas {
+  margin-top: 50px;
   border: 5px solid white;
   border-radius: 20px;
   box-shadow: 5px 5px 5px gray;
+}
+
+#song-name {
+  border: 0px;
+  background-color: fuchsia;
+  padding: 5px;
 }

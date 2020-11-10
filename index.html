@@ -48,7 +48,19 @@
         <h3 id="speed" class="btn btn-danger result">Speed</h3>
       </div>
       <button class="btn btn-success play_button" onclick="play()">Play</button>
+      <button class="btn btn-warning play_button" onclick="pause()">
+        Pause
+      </button>
+      <button class="btn btn-info play_button" onclick="play()">Resume</button>
       <button class="btn btn-danger play_button" onclick="stop()">Stop</button>
+      <br /><br />
+      <select id="song-name" onchange="select_song()">
+        <option value="1">Music 1</option>
+        <option value="2">Music 2</option>
+        <option value="3">Music 3</option>
+        <option value="4">Music 4</option>
+        <option value="5">Music 5</option>
+      </select>
     </center>
 
     <script src="main.js"></script>
